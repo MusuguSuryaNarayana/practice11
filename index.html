@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       ul{
+        list-style-type: none;
+        height: 40px;
+        width:350px;
+        background-color: rgb(193, 196, 199);
+        padding:0;
+        }
+        li a{
+            display: flex;
+            padding: 8px 16px;
+            text-decoration: none;
+            justify-content: space-evenly;
+        }
+        li {
+  float: left;
+}
+        li a:hover{
+            background-color: black;
+            color:white
+        }
+        .su{
+            height: 67vh;
+            width: 30vw;
+            background-color: aqua;
+            display:flex ;
+            padding: 20px;
+            flex-wrap: wrap;
+            /* flex-direction:column; */
+            gap: 5px;
+            overflow: scroll;
+        }
+        .cd{
+            background-color: rgb(210, 210, 221);
+            height: 120px;
+            width: 125px;
+            border: 2px solid;
+        }
+       </style>
+</head>
+<body>
+    <h1 align="center">Navigation Bar</h1>
+    <font face="impact" size="3" bgcolor="green">
+    <ul>
+<li><a href="#home">home</a></li>
+<li><a href="#news">news</a></li>
+<li><a href="#content">content</a></li>
+<li><a href="about">about</a></li>
+    </ul>
+    </font>
+    <div class="su">
+        <div class="cd">item1</div>
+            <div class="cd">item2</div>
+            <div class="cd">item3</div>
+            <div class="cd">item4</div>
+            <div class="cd">item5</div>
+            <div class="cd">item6</div>
+            <div class="cd">item7</div>
+            <div class="cd">item8</div>
+            <div class="cd">item9</div>
+            <div class="cd">item10</div>
+    </div>
+</body>
+</html>
